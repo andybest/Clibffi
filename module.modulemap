@@ -1,0 +1,5 @@
+module Clibffi [system] {
+  header "/usr/include/ffi/ffi.h"
+  link "ffi"
+  export *
+}
